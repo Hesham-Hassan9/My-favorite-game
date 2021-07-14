@@ -1,7 +1,7 @@
 alert("hey, wlecome to my website " + name )
 
 var favSeason = prompt("what is your favorite season form 1 to 10 in Assassin's creed")
-
+document.write("your favorite season is:")
 if(favSeason == "1"){
 document.write(
   "<div>" + "<h3>" + "Assassin's Creed"+"</h3>"
