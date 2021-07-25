@@ -2,6 +2,7 @@ var weldcome = prompt("Hello on my website, What is your name")
 var howOld = prompt("How old are you")
 var favSeason = prompt("what is your favorite season form 1 to 10 in Assassin's creed")
 document.write("your favorite season is:")
+
 if(favSeason == "1"){
 document.write(
   "<div>" + "<h3>" + "Assassin's Creed"+"</h3>"
